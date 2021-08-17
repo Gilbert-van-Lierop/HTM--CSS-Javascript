@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+.button {
+  transform: rotate(20deg);
+  border-radius: 15px 50px 30px 5px;
+    background-color: green;
+    border: solid 5px red;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /*display: float;*/
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  </style>
+</head>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo">JavaScript can hide HTML elements.</p>
+
+<p id="x">Suriname</p>
+
+<!--button 1-->
+<button class="button" type="button" onclick="document.getElementById('x').style.
+display='none'">Druk hier om te verdwijnen!</button>
+
+<!--button 2-->
+<button class="button" ="button" onclick="document.getElementById('x').
+style.display='block'">Druk hier om te verschijnen</button>
+</br></br></br><!--verschillende manieren om tijd te tonen in JS-->
+<script>
+document.getElementById("demo").innerHTML = "De Datum en tijd is : " + Date();
+
+document.write(Date());
+</script>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+
+CTRL + N
+CTRL + S
+CTRL + T
+CTRL + SHIFT + S
+CTRL + Z
+CTRL + Y
+CTRL + C = Copy
+CTRL + V = Paste
+CTRL + X =  CUT
+CTRL + A = Select All
+CTRL + O
+
+Gebruik van SHIFT
+Gebruik van CTRL
+ALT + TAB
+CTRL + ALT + DEL = CTRL + SHIFT + ESCAPE
+ALT + F4

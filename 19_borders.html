@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/*
+Waarvoor staat de p.one?
+Kan ik de class one ook in een h2 tag plaatsen
+Hoe style ik in da geval dan de h2
+Kan ik de classes in de p tags, benaderen zonder p.class naam te gebruieken
+*/
+p.one {
+  border-style: solid;
+  border-width: 5px 20px; /* 5px top and bottom, 20px on the sides */
+}
+
+.two {
+  border-style: solid;
+  border-width: 20px 5px; /* 20px top and bottom, 5px on the sides */
+}
+
+.three {
+  border-style: solid;
+  border-width: 25px 10px 4px 35px; /* 25px top, 10px right, 4px bottom and 35px left */
+}
+</style>
+</head>
+<body>
+
+<h2 class="one">The border-width Property</h2>
+<p>The border-width property can have from one to four values (for the top border, right border, bottom border, and the left border):</p>
+
+<p class="one">Some text.</p>
+<p class="two">Some text.</p>
+<p class="three">Some text.</p>
+
+</body>
+</html>
